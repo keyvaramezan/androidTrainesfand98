@@ -11,16 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".shapeActivity">
+        <activity android:name=".ViewPagerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WebViewActivity">
+        <activity android:name=".FragmentActivity">
 
         </activity>
+        <activity android:name=".shapeActivity"></activity>
+        <activity android:name=".WebViewActivity" />
         <activity android:name=".HandlerActivity" />
         <activity android:name=".TestActivity" />
         <activity android:name=".MainActivity" />
